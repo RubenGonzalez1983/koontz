@@ -1,0 +1,249 @@
+.body {
+    overflow: auto;
+    position: relative;
+    
+  }
+  
+.body::before {
+  background-color: black;
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  
+    display: block;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://i.ibb.co/JCq6xsB/3L9A1198.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  
+  }
+
+  .nav {
+    // position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    top: 0; 
+    z-index: 99999;
+    
+  
+  }
+
+  .navcolor {
+    background-color:whitesmoke;
+  }
+
+  .navlogo{
+    width:120px;
+    height: 20;
+    margin-top: 6px;
+    margin-left: 15px;
+  }
+  
+  .link {
+    color: whitesmoke;
+    -webkit-text-fill-color: whitesmoke;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 22px;
+    // margin-right: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .hover:hover {
+    background-color: rgb(187, 154, 7);
+  }
+  
+  .logodiv {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+
+  .logo{
+    width: 500px;
+    height: 100%;
+  }
+
+  .logoh1{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 35px;
+  }
+
+  .logoh3{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+   
+  }
+
+  .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .iconlinks{
+    width: 40px;
+    height: 100%;
+    margin-right: 6px;
+  }
+
+  .mainbody{
+    background-color:		#F0F0F0;
+  }
+
+  .bodyweb{
+   
+    width:600px;
+    margin: 0 auto;
+    background-color: white;
+   
+
+  }
+
+  .webtags{
+    margin-left:25px;
+    margin-right:25px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    
+  }
+
+  .picweb{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 550px;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+
+  .picabout{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 400px;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+  .footcolor{
+    // position: fixed;
+    bottom: 0;
+    background-color:black;
+    color: white;
+    left: 0;
+    width: 100%;
+
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.kustom{
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+}
+
+
+.guitars{
+
+      color: black;
+      width:430px; 
+      height: 670px; 
+      margin:auto; 
+       
+      
+    }
+
+.top {
+display: flex; 
+padding: 10px;
+font-family: 'Quattrocento Sans', sans-serif;
+color:black;
+} 
+
+.kustomgtr  {
+  opacity: 1;
+width: 100%; 
+height: auto; 
+display:block;
+transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+.middle {
+  margin: 0 auto;
+  // width: 275px;
+  opacity: 0;
+  transform: translate(-0%, -573px);
+  text-align: center;
+}
+
+// .guitars:hover .kustomgtr {
+//   opacity: 0.2;
+//   background-color: black;
+
+// }
+
+.guitars:hover .middle {
+  opacity: .8;
+  background-color: black;
+  height: 573px;
+}
+
+.text {
+  font-family: 'Quattrocento Sans', sans-serif;
+  background-color: black;
+  opacity: 2;
+  color:white;
+  font-size: 16.3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  margin: 0;
+  width: 300px;
+}
+
+.textkustom{
+  font-family: "Archivo Black", sans-serif;
+  font-size: 18px;
+  width:600px;
+  margin: 0 auto;
+}
