@@ -2,11 +2,13 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import "../../styles/home.scss";
 
-export default function ContactUs() {
-	function sendEmail(e) {
+export const ContactUs = () => {
+	const form = useRef();
+
+	const sendEmail = e => {
 		e.preventDefault();
 
-		emailjs.sendForm("service_9gyr8mr", "template_fhrii5l", form.current, "user_xEbved8R2ctCBnhDEdffV").then(
+		emailjs.sendForm("service_9gyr8mr", "template_fhrii5l", e.target, "user_xEbved8R2ctCBnhDEdffV").then(
 			result => {
 				console.log(result.text);
 			},
@@ -14,17 +16,17 @@ export default function ContactUs() {
 				console.log(error.text);
 			}
 		);
-	}
-	e.target.reset();
+		e.target.reset();
+	};
 
 	return (
 		<form ref={form} onSubmit={sendEmail}>
 			<header className="center">Get in touch!</header>
 
 			<form id="form" className="topBefore">
-				<input type="text" placeholder="NAME" name="name" />
-				<input type="email" placeholder="E-MAIL" name="email" />
-				<textarea type="text" placeholder="MESSAGE" name="message" />
+				<input type="text" name="name" placeholder="NAME" />
+				<input type="email" name="email" placeholder="E-MAIL" />
+				<textarea name="message" placeholder="MESSAGE" />
 				<input id="submit" type="submit" value="GO!" />
 			</form>
 			<header className="center">
@@ -33,4 +35,4 @@ export default function ContactUs() {
 			</header>
 		</form>
 	);
-}
+};
