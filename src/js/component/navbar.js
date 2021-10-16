@@ -26,19 +26,13 @@ export const Navbar = () => {
 					</li>
 
 					<li className="navbarfont">
-						<a className="nav-link hover link" href="/">
-							HOME
-						</a>
-					</li>
-
-					<li className="navbarfont">
 						<a className="nav-link hover link" href="/repairs">
 							REPAIR SERVICES
 						</a>
 					</li>
 					<li className="nav-item">
 						<a className="nav-link hover link" href="/kustom">
-							KUSTOM GUITARS
+							GUITARS
 						</a>
 					</li>
 					<li className="nav-item">
