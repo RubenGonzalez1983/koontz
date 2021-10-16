@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/home.scss";
+import "../../styles/home.css";
 import { Link } from "react-router-dom";
 import YoutubeEmbed from "../component/YoutubeEmbed";
 

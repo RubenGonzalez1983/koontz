@@ -8,7 +8,7 @@ import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
-// import { Footer } from "./component/footer";
+import { Footer } from "./component/footer";
 import { Repairs } from "./views/repairs";
 import { About } from "./views/about";
 import { Contact } from "./views/contactus";
@@ -51,7 +51,7 @@ const Layout = () => {
 							<h1>Not found!</h1>
 						</Route>
 					</Switch>
-					{/* <Footer /> */}
+					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
 		</div>
