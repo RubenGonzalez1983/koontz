@@ -39,39 +39,39 @@ input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
 /* on hover placeholder */
 
 input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
-  color: black;
+  color: white;
   font-size: 0.875em;
 }
 
 input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
-  color: black;
+  color: white;
 }
 
 input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-  color: black;
+  color: white;
   font-size: 0.875em;
 }
 
 input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
-  color: black;
+  color: white;
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-  color: black;
+  color: white;
   font-size: 0.875em;
 }
 
 input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-  color: black;
+  color: white;
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-  color: black;
+  color: white;
   font-size: 0.875em;
 }
 
 input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
-  color: black;
+  color: white;
 }
 
 body {
@@ -115,8 +115,8 @@ input {
 }
 
 input:hover {
-  background: rgb(187, 154, 7);
-  color: #e2dedb;
+  background: black;
+  color: white;
 }
 
 textarea {
@@ -142,8 +142,8 @@ textarea {
 }
 
 textarea:hover {
-  background: rgb(187, 154, 7);
-  color: black;
+  background: black;
+  color: white;
 }
 
 #submit {
@@ -164,7 +164,7 @@ textarea:hover {
 }
 
 #submit:hover {
-  color: black;
+  color: white;
 }
 
 .center {
