@@ -31,9 +31,12 @@ export const ContactUs = () => {
 			</form>
 			<header className="center">
 				E-mail me directly at:
-				<br /> koontzkustoms@gmail.com
-				<br /> Follow me on instagram: @koontzguitars
-				<br /> Buy my guitars here.
+				<a href="mailto:koontzkustoms@gmail.com">koontzkustoms@gmail.com</a>
+				<br /> Follow me on instagram:
+				<a href="https://www.instagram.com/koontzguitars/?hl=en">koontzguitars</a>
+				<br />
+				Buy my guitars on:
+				<a href="https://koontzkustomguitars.bigcartel.com/">https://koontzkustomguitars.bigcartel.com/</a>
 				<br />
 				<br />
 			</header>

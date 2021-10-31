@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/home.css";
+import { Link } from "react-router-dom";
 
 export const Kustom = () => (
 	<div>
@@ -22,6 +23,8 @@ export const Kustom = () => (
 							Inca Silver and Mirror Pickguard
 							<br />
 							$1,400
+							<br />
+							<a href="https://koontzkustomguitars.bigcartel.com/product/the-tropic-thunder">Buy</a>
 						</div>
 					</div>
 				</div>
@@ -42,6 +45,8 @@ export const Kustom = () => (
 							Natural Walnut Stain
 							<br />
 							$1,500
+							<br />
+							<a href="https://koontzkustomguitars.bigcartel.com/product/the-dag">Buy</a>
 						</div>
 					</div>
 				</div>
@@ -62,7 +67,9 @@ export const Kustom = () => (
 							<br />
 							Black and Natural Mahogany
 							<br />
-							$2,400
+							$2,100
+							<br />
+							<a href="https://koontzkustomguitars.bigcartel.com/product/the-strummer">Buy</a>
 						</div>
 					</div>
 				</div>
@@ -83,6 +90,8 @@ export const Kustom = () => (
 							Natural Walnut
 							<br />
 							$3,200
+							<br />
+							<a href="https://koontzkustomguitars.bigcartel.com/product/the-maverick">Buy</a>
 						</div>
 					</div>
 				</div>
@@ -103,6 +112,8 @@ export const Kustom = () => (
 							Surf Green
 							<br />
 							$1,900
+							<br />
+							<a href="https://koontzkustomguitars.bigcartel.com/product/the-mav">Buy</a>
 						</div>
 					</div>
 				</div>
@@ -121,6 +132,8 @@ export const Kustom = () => (
 							Rose Gold
 							<br />
 							$1,500
+							<br />
+							<Link to="/contact">Contact me</Link>
 						</div>
 					</div>
 				</div>

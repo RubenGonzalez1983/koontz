@@ -162,6 +162,24 @@
 
 }
 
+.footerinfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+}
+
+.footericons{
+  font-size: 20px;
+}
+
+.footericons a {
+  text-decoration: none; 
+  color: white;
+}
+
 .video-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
