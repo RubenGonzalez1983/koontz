@@ -5,7 +5,7 @@ import { ContactUs } from "../component/contact";
 export const Contact = () => (
 	<div>
 		<div>
-			<br /> <br /> <br />
+			<br /> <br />
 			<ContactUs />
 		</div>
 	</div>

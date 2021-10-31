@@ -20,6 +20,8 @@ export const Kustom = () => (
 							Benson Custom P90s
 							<br />
 							Inca Silver and Mirror Pickguard
+							<br />
+							$1,400
 						</div>
 					</div>
 				</div>
@@ -38,6 +40,8 @@ export const Kustom = () => (
 							Wilde Bill L500 Humbuckers
 							<br />
 							Natural Walnut Stain
+							<br />
+							$1,500
 						</div>
 					</div>
 				</div>

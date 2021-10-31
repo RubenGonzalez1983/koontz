@@ -30,8 +30,12 @@ export const ContactUs = () => {
 				<input id="submit" type="submit" value="GO!" />
 			</form>
 			<header className="center">
-				Or e-mail me directly at:
+				E-mail me directly at:
 				<br /> koontzkustoms@gmail.com
+				<br /> Follow me on instagram: @koontzguitars
+				<br /> Buy my guitars here.
+				<br />
+				<br />
 			</header>
 		</form>
 	);
