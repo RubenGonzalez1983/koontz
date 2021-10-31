@@ -25,8 +25,8 @@ export const About = () => (
 						I build them mainly using hand tools, utilizing the best quality hardware and electronics
 						available. <br /> <br />
 						Sorry if some of my sweat soaks into the wood of your brand new hand-built guitar. <br /> <br />
-						Check out my <Link to="/repairs">repair services</Link> and some of the guitars I&apos;ve built
-						by request. <br /> <br />
+						Check out my <Link to="/repairs">repair services</Link> and some of the
+						<Link to="/kustom"> guitars</Link> I&apos;ve built. <br /> <br />
 						Check out Jon Nuñez rocking one of my guitars, The Maverick, with his band, Torche. Hint:
 						he&apos;s the guitar player that doesn&apos;t sing and plays the leads.
 					</p>

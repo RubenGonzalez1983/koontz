@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/home.css";
+import { Link } from "react-router-dom";
 
 export const Repairs = () => (
 	<div>
@@ -43,19 +44,19 @@ export const Repairs = () => (
 				<br /> <br />
 				<h1>Crack and Structural Repairs</h1> <br />
 				<ul>
-					<li>a. Seal crack up to 3” ---- $50-$100</li>
+					<li>Seal crack up to 3” ---- $50-$100</li>
 					No Finish <br /> <br />
-					<li>b. Seal crack up to 6” ---- $100-$150</li>
+					<li>Seal crack up to 6” ---- $100-$150</li>
 					No Finish <br /> <br />
-					<li>c. Repair Crack up to 3” ---- $150-200</li>
+					<li>Repair Crack up to 3” ---- $150-200</li>
 					With finish touch up Plus materials($10) Over 6” must quote. <br />
 					<br />
-					<li>e. Seal Cracked Bridge ---- $25-75</li> <br />
-					<li>f. Headstock ReGlue ---- $200-250</li>
+					<li>Seal Cracked Bridge ---- $25-75</li> <br />
+					<li>Headstock ReGlue ---- $200-250</li>
 					No touch up, No Splines <br /> <br />
-					<li>g. Headstock Reglue ---- $300-350</li>
+					<li>Headstock Reglue ---- $300-350</li>
 					w/Spline reinforcements, No touchup W/touch up add $50-75 <br /> <br />
-					<li>h. Reglue Loose brace ---- $50</li>
+					<li>Reglue Loose brace ---- $50</li>
 					$30 each additional brace. <br />
 					<br />
 				</ul>{" "}
@@ -65,34 +66,33 @@ export const Repairs = () => (
 					<i>Different types of neck repairs from Nuts to Frets. For headstock crack see Crack Repair</i>
 				</p>
 				<ul>
-					<li>a.Fender style bone nut ---- $90</li>
+					<li>Fender style bone nut ---- $90</li>
 					Made from scratch. <br /> <br />
-					<li>b. Gibson style bone nut ---- $95</li>
+					<li>Gibson style bone nut ---- $95</li>
 					Made from scratch. <br /> <br />
-					<li>c. 12 String bone nut ---- $150</li>
+					<li>12 String bone nut ---- $150</li>
 					Made from scratch. <br /> <br />
-					<li>d. Install Synthetic Nut ---- $50</li>
+					<li>Install Synthetic Nut ---- $50</li>
 					Plus cost of nut. <br /> <br />
-					<li>E.Brass nut ---- $150</li>{" "}
+					<li>Brass nut ---- $150</li>{" "}
 				</ul>
 				<br /> <br />
 				<h1>Frets and Fingerboards</h1> <br />
 				<ul>
-					<li>a. Full Fret level and recrown ---- $100</li> <br />
-					<li>b. Fret end File ---- $50</li> <br />
-					<li>c. Fret level, recrown, fret ends ---- $125</li> <br />
-					<li>d. ReCrown only ---- $40</li> <br />
-					<li>. Re-Seat fret ---- $15 a fret</li> <br />
-					<li>f. Full Re Fret ---- $350</li>
+					<li>Full Fret level and recrown ---- $100</li> <br />
+					<li>Fret end File ---- $50</li> <br />
+					<li>Fret level, recrown, fret ends ---- $125</li> <br />
+					<li>ReCrown only ---- $40</li> <br />
+					<li>Re-Seat fret ---- $15 a fret</li> <br />
+					<li>Full Re Fret ---- $350</li>
 					Unbound Maple or Rosewood neck. <br /> <br />
-					<li>g. Re Fret Bound Neck ---- 450</li>{" "}
+					<li>Re Fret Bound Neck ---- 450</li>{" "}
 				</ul>
 				<br />
 				<br />
-				<h2>
-					If you don&apos;t see what you need, I&apos;m pretty sure I can do it. Get in touch and we&apos;ll
-					figure it out! Go to my contact page or call me.
-				</h2>
+				<h4>
+					If you don&apos;t see what you need, <Link to="/contact">contact me.</Link>{" "}
+				</h4>
 			</div>
 			<br /> <br /> <br /> <br />
 		</div>

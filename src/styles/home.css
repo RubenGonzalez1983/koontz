@@ -43,6 +43,7 @@
   .navbarkoontz{
     position: relative;
     align-items: center;
+    position:fixed;
 
   }
 

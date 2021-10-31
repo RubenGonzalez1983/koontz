@@ -5,7 +5,6 @@ export const Kustom = () => (
 	<div>
 		<div>
 			<br /> <br /> <br />
-			<br />
 			<div className="kustom">
 				<div className="guitars">
 					<img className="kustomgtr" src="https://i.ibb.co/bF83PHd/tropic-thunder.jpg" />
