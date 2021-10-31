@@ -8,7 +8,7 @@ export const Repairs = () => (
 			<br /> <br /> <br /> <br />
 			<div className="webtags">
 				<img className="picweb" src="https://i.ibb.co/6sVVtSW/3L9A1145.jpg" />
-				<h1>Set-Up and Fret Level</h1>
+				<h1 className="underline">Set-Up and Fret Level</h1>
 				<br />
 				<p>
 					Full Set-Up includes: Inspection of instrument and electronics, Personalized recommendations for
@@ -42,7 +42,7 @@ export const Repairs = () => (
 				<ul>Full Set-Up ---- $80</ul>
 				<ul>Set-Up with fret level ---- $160</ul>
 				<br /> <br />
-				<h1>Crack and Structural Repairs</h1> <br />
+				<h1 className="underline">Crack and Structural Repairs</h1> <br />
 				<ul>
 					<li>Seal crack up to 3” ---- $50-$100</li>
 					No Finish <br /> <br />
@@ -61,7 +61,7 @@ export const Repairs = () => (
 					<br />
 				</ul>{" "}
 				<br />
-				<h1>Nuts</h1> <br />
+				<h1 className="underline">Nuts</h1> <br />
 				<p>
 					<i>Different types of neck repairs from Nuts to Frets. For headstock crack see Crack Repair</i>
 				</p>
@@ -77,7 +77,7 @@ export const Repairs = () => (
 					<li>Brass nut ---- $150</li>{" "}
 				</ul>
 				<br /> <br />
-				<h1>Frets and Fingerboards</h1> <br />
+				<h1 className="underline">Frets and Fingerboards</h1> <br />
 				<ul>
 					<li>Full Fret level and recrown ---- $100</li> <br />
 					<li>Fret end File ---- $50</li> <br />

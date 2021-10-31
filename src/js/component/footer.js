@@ -4,7 +4,7 @@ export const Footer = () => (
 	<footer className="footer mt-auto py-3 text-center footcolor">
 		<div>
 			<div className="footerinfo">
-				<div> ©2021 Koontz Kustom Guitars</div>{" "}
+				<div> ©2021 Koontz Kustom Guitars. Miami, FL. </div>
 				<div className="footericons">
 					{" "}
 					<a href="https://www.instagram.com/koontzguitars/?hl=en">
