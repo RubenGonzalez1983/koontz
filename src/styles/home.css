@@ -1,10 +1,11 @@
 .body {
     overflow: auto;
     position: relative;
+    background-color:	white;
     
   }
   
-.body::before {
+/* .body::before {
   background-color: black;
     content: "";
     position: fixed;
@@ -25,7 +26,7 @@
     -ms-filter: blur(5px);
     filter: blur(5px);
   
-  }
+  } */
 
   .nav {
     
@@ -35,8 +36,14 @@
     width: 100%;
     top: 0; 
     z-index: 99999;
+    margin-right: 120px;
     
   
+  }
+  .navbarkoontz{
+    position: relative;
+    align-items: center;
+
   }
 
   .navcolor {
@@ -65,25 +72,26 @@
   
   .logodiv {
     display: block;
-    height: 100%;
-    width: 100vw;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 150px;
   }
 
-  .logo{
-    width: 500px;
-    height: 100%;
+  .homeimg{
+    width: 100%;
+    height: auto;
   }
 
-  .logoh1{
-    color: whitesmoke;
+  .hometxt{
+    color:black;
     display: flex;
     justify-content: center;
-    font-family: "Archivo Black", sans-serif;
-    font-size: 35px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 30px;
   }
 
   .logoh3{

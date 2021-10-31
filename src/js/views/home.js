@@ -5,9 +5,9 @@ export const Home = () => (
 	<div>
 		<div className="body">
 			<div className="logodiv">
-				<br /> <br />
-				<img className="logo" src="https://koontzguitars.com/wp-content/uploads/2021/03/koontz_logo_temp.png" />
-				<h1 className="logoh1">MIAMI, FL</h1>
+				<img className="homeimg" src="https://i.ibb.co/jgjbmMb/3L9A1066.jpg" />
+				<br />
+				<h1 className="hometxt">I fix and build guitars.</h1>
 				<br />
 			</div>
 		</div>

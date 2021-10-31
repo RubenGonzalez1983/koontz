@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
 	const [showmenu, setShowmenu] = useState(" ");
 	return (
-		<nav className="navbar navbar-expand-lg nav-fixed navbar-light nav">
+		<nav className="navbarkoontz navbar-expand-lg nav-fixed navbar-light nav">
 			<button
 				onClick={() => (showmenu == " " ? setShowmenu("show") : setShowmenu(" "))}
 				className="navbar-toggler navcolor"
@@ -16,15 +16,17 @@ export const Navbar = () => {
 				aria-label="Toggle navigation">
 				<span className="navbar-toggler-icon" />
 			</button>
+			<a className="link" href="/">
+				<img className="navlogo" src="https://i.ibb.co/ypTrQHH/koontzlogoflatnav.jpg" />
+			</a>
 
 			<div className={"collapse navbar-collapse  " + showmenu} id="navbarTogglerDemo03">
 				<ul className="navbar-nav mr-auto mt-2 mt-lg-0 navright nav">
 					<li className="navbarfont">
-						<a className="link" href="/">
-							<img className="navlogo" src="https://i.ibb.co/ypTrQHH/koontzlogoflatnav.jpg" />
+						<a className="nav-link hover link" href="/">
+							HOME
 						</a>
 					</li>
-
 					<li className="navbarfont">
 						<a className="nav-link hover link" href="/repairs">
 							REPAIR SERVICES
