@@ -46,7 +46,12 @@ export const Kustom = () => (
 							<br />
 							$1,500
 							<br />
-							<a href="https://koontzkustomguitars.bigcartel.com/product/the-dag">Buy</a>
+							<a
+								href="https://koontzkustomguitars.bigcartel.com/product/the-dag"
+								target="_blank"
+								rel="noopener noreferrer">
+								Buy
+							</a>
 						</div>
 					</div>
 				</div>
