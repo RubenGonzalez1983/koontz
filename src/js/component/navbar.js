@@ -38,9 +38,9 @@ export const Navbar = () => {
 				aria-label="Toggle navigation">
 				<span className="navbar-toggler-icon" />
 			</button>
-			<Link className="link" to="/">
+			<div className="link">
 				<img className="navlogo" src="https://i.ibb.co/ypTrQHH/koontzlogoflatnav.jpg" />
-			</Link>
+			</div>
 
 			<div className={"collapse navbar-collapse  " + showmenu} id="navbarTogglerDemo03">
 				<ul className="navbar-nav mr-auto mt-2 mt-lg-0 navright nav">
