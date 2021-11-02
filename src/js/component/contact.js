@@ -21,7 +21,7 @@ export const ContactUs = () => {
 
 	return (
 		<form ref={form} onSubmit={sendEmail}>
-			<header className="center">Get in touch!</header>
+			<header className="center">Let&apos;s talk.</header>
 
 			<form id="form" className="topBefore">
 				<input type="text" name="name" placeholder="NAME" />

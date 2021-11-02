@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/home.css";
+import { ContactUs } from "../component/contact";
 
 export const Home = () => (
 	<div>
@@ -10,6 +11,8 @@ export const Home = () => (
 				<br />
 				<h1 className="hometxt">I fix and build guitars.</h1>
 				<br />
+				<br />
+				<ContactUs />
 			</div>
 		</div>
 	</div>
