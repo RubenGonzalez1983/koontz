@@ -7,10 +7,10 @@ export const Footer = () => (
 				<div> ©2021 Koontz Kustom Guitars. Miami, FL. </div>
 				<div className="footericons">
 					{" "}
-					<a href="https://www.instagram.com/koontzguitars/?hl=en">
+					<a href="https://www.instagram.com/koontzguitars/?hl=en" target="_blank" rel="noopener noreferrer">
 						<i className="fab fa-instagram" />
 					</a>{" "}
-					<a href="https://koontzkustomguitars.bigcartel.com/">
+					<a href="https://koontzkustomguitars.bigcartel.com/" target="_blank" rel="noopener noreferrer">
 						<i className="fas fa-shopping-cart" />{" "}
 					</a>
 				</div>

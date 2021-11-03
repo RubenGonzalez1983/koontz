@@ -12,7 +12,9 @@ export const Home = () => (
 				<h1 className="hometxt">I fix and build guitars.</h1>
 				<br />
 				<br />
-				<ContactUs />
+				<br />
+				<br />
+				<br />
 			</div>
 		</div>
 	</div>

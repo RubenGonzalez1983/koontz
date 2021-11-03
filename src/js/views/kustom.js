@@ -24,7 +24,12 @@ export const Kustom = () => (
 							<br />
 							$1,400
 							<br />
-							<a href="https://koontzkustomguitars.bigcartel.com/product/the-tropic-thunder">Buy</a>
+							<a
+								href="https://koontzkustomguitars.bigcartel.com/product/the-tropic-thunder"
+								target="_blank"
+								rel="noopener noreferrer">
+								Buy
+							</a>
 						</div>
 					</div>
 				</div>
@@ -74,7 +79,12 @@ export const Kustom = () => (
 							<br />
 							$2,100
 							<br />
-							<a href="https://koontzkustomguitars.bigcartel.com/product/the-strummer">Buy</a>
+							<a
+								href="https://koontzkustomguitars.bigcartel.com/product/the-strummer"
+								target="_blank"
+								rel="noopener noreferrer">
+								Buy
+							</a>
 						</div>
 					</div>
 				</div>
@@ -96,7 +106,12 @@ export const Kustom = () => (
 							<br />
 							$3,200
 							<br />
-							<a href="https://koontzkustomguitars.bigcartel.com/product/the-maverick">Buy</a>
+							<a
+								href="https://koontzkustomguitars.bigcartel.com/product/the-maverick"
+								target="_blank"
+								rel="noopener noreferrer">
+								Buy
+							</a>
 						</div>
 					</div>
 				</div>
@@ -118,7 +133,12 @@ export const Kustom = () => (
 							<br />
 							$1,900
 							<br />
-							<a href="https://koontzkustomguitars.bigcartel.com/product/the-mav">Buy</a>
+							<a
+								href="https://koontzkustomguitars.bigcartel.com/product/the-mav"
+								target="_blank"
+								rel="noopener noreferrer">
+								Buy
+							</a>
 						</div>
 					</div>
 				</div>
@@ -138,7 +158,9 @@ export const Kustom = () => (
 							<br />
 							$1,500
 							<br />
-							<Link to="/contact">Contact me</Link>
+							<Link to="/contact" target="_blank" rel="noopener noreferrer">
+								Contact me
+							</Link>
 						</div>
 					</div>
 				</div>

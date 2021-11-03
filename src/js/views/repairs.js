@@ -45,17 +45,17 @@ export const Repairs = () => (
 				<h1 className="underline">Crack and Structural Repairs</h1> <br />
 				<ul>
 					<li>Seal crack up to 3” ---- $50-$100</li>
-					No Finish <br /> <br />
+					No Finish. <br /> <br />
 					<li>Seal crack up to 6” ---- $100-$150</li>
-					No Finish <br /> <br />
+					No Finish. <br /> <br />
 					<li>Repair Crack up to 3” ---- $150-200</li>
 					With finish touch up plus materials($10) Over 6” must quote. <br />
 					<br />
 					<li>Seal Cracked bridge ---- $25-75</li> <br />
 					<li>Headstock reglue ---- $200-250</li>
-					No touch up, no splines <br /> <br />
+					No touch up, no splines. <br /> <br />
 					<li>Headstock Reglue ---- $300-350</li>
-					w/spline reinforcements, no touchup w/touch up add $50-75 <br /> <br />
+					w/spline reinforcements, no touchup w/touch up add $50-75. <br /> <br />
 					<li>Reglue loose brace ---- $50</li>
 					$30 each additional brace. <br />
 					<br />
@@ -91,7 +91,7 @@ export const Repairs = () => (
 				<br />
 				<br />
 				<h4>
-					If you don&apos;t see what you need, <Link to="/contact">contact me.</Link>{" "}
+					If you don&apos;t see what you need, <a href="/contact">contact me.</a>{" "}
 				</h4>
 			</div>
 			<br /> <br /> <br /> <br />

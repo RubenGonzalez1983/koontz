@@ -115,8 +115,8 @@ input {
 }
 
 input:hover {
-  background: black;
-  color: white;
+  background: rgb(197, 166, 27);
+  color: whitesmoke;
 }
 
 textarea {
@@ -142,8 +142,8 @@ textarea {
 }
 
 textarea:hover {
-  background: black;
-  color: white;
+  background: rgb(197, 166, 27);
+  color: whitesmoke;
 }
 
 #submit {
@@ -173,4 +173,12 @@ textarea:hover {
     justify-content: center;
     font-family: 'Quattrocento Sans', sans-serif;
 
+}
+.topcontact{
+  border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.bottomcontact{
+  border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
 }
