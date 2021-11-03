@@ -2,23 +2,23 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 var menu = [
 	{
-		title: "Home",
+		title: "HOME",
 		link: "/"
 	},
 	{
-		title: "Repair Services",
+		title: "REPAIR SERVICES",
 		link: "/repairs"
 	},
 	{
-		title: "Guitars",
+		title: "GUITARS",
 		link: "/kustom"
 	},
 	{
-		title: "About",
+		title: "ABOUT",
 		link: "/about"
 	},
 	{
-		title: "Contact",
+		title: "CONTACT",
 		link: "/contact"
 	}
 ];
