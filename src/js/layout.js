@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import ScrollToTop from "./component/scrollToTop";
+import ScrollToTop from "./component/ScrollToTop";
 
 import { Home } from "./views/home";
 import { Demo } from "./views/demo";
@@ -23,36 +23,35 @@ const Layout = () => {
 	return (
 		<div>
 			<BrowserRouter basename={basename}>
-				<ScrollToTop>
-					<Navbar />
-					<Switch>
-						<Route exact path="/">
-							<Home />
-						</Route>
-						<Route exact path="/repairs">
-							<Repairs />
-						</Route>
-						<Route exact path="/kustom">
-							<Kustom />
-						</Route>
-						<Route exact path="/about">
-							<About />
-						</Route>
-						<Route exact path="/contact">
-							<Contact />
-						</Route>
-						<Route exact path="/demo">
-							<Demo />
-						</Route>
-						<Route exact path="/single/:theid">
-							<Single />
-						</Route>
-						<Route>
-							<h1>Not found!</h1>
-						</Route>
-					</Switch>
-					<Footer />
-				</ScrollToTop>
+				<ScrollToTop />
+				<Navbar />
+				<Switch>
+					<Route exact path="/">
+						<Home />
+					</Route>
+					<Route exact path="/repairs">
+						<Repairs />
+					</Route>
+					<Route exact path="/kustom">
+						<Kustom />
+					</Route>
+					<Route exact path="/about">
+						<About />
+					</Route>
+					<Route exact path="/contact">
+						<Contact />
+					</Route>
+					<Route exact path="/demo">
+						<Demo />
+					</Route>
+					<Route exact path="/single/:theid">
+						<Single />
+					</Route>
+					<Route>
+						<h1>Not found!</h1>
+					</Route>
+				</Switch>
+				<Footer />
 			</BrowserRouter>
 		</div>
 	);
