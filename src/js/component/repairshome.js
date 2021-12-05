@@ -233,8 +233,8 @@ export const RepairsHome = () => (
 					</li>
 					<br />
 					<li className="article">
-						<span className="item">Very dirty guitar or rusty frozen hardware</span>
-						<span className="dots" /> <span className="price">$25-50</span>
+						<span className="item">Dirty guitar/rusty frozen hardware</span>
+						<span className="dots" /> <span className="price">$25+</span>
 					</li>
 					<br />
 					<li className="article">
@@ -249,11 +249,13 @@ export const RepairsHome = () => (
 					<br />
 					<li className="article">
 						<span className="item">Tuner install drop in</span>
-						<span className="dots" /> <span className="price">$15(+cost of restring and setup)</span>
+						<span className="dots" /> <span className="price">$15</span>
 					</li>
+					(+cost of restring and setup)
+					<br />
 					<br />
 					<li className="article">
-						<span className="item">Tuner install with reaming and drilling</span>
+						<span className="item">Tuner install w/ reaming + drilling</span>
 						<span className="dots" /> <span className="price">$40</span>
 					</li>
 					<br />
@@ -363,12 +365,6 @@ export const RepairsHome = () => (
 					<br />
 					<br />
 				</ul>
-				<h4>
-					If you don&apos;t see what you need,{" "}
-					<Link to="/contact" target="_blank" rel="noopener noreferrer">
-						contact me.
-					</Link>{" "}
-				</h4>
 			</div>
 			<br /> <br /> <br /> <br />
 		</div>

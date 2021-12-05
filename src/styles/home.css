@@ -92,9 +92,7 @@
   .hometxt{
     color:black;
     display: flex;
-    justify-content: center;
     font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 40px;
   }
 
   .logoh3{
