@@ -125,11 +125,26 @@
 
   .bodyweb{
    
-    width:600px;
+    
     margin: 0 auto;
     background-color: white;
-   
+    width: 100%;
+    max-width: 600px;
 
+  }
+
+  @media screen and (min-width: 601px) {
+    bodyweb {
+      font-size: 16px;
+      
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    bodyweb {
+      font-size: 10px;
+      
+    }
   }
 
   .webtags{
@@ -143,8 +158,9 @@
     display: block;
   margin-left: auto;
   margin-right: auto;
-    width: 550px;
-    height: 100%;
+    width:100%;
+    max-width: 550px;
+    height: auto;
     margin-bottom: 50px;
   }
 
@@ -152,8 +168,9 @@
     display: block;
   margin-left: auto;
   margin-right: auto;
-    width: 400px;
-    height: 100%;
+  width: 100%;
+  max-width: 400px;
+    height: auto;
     margin-bottom: 50px;
   }
   .footcolor{

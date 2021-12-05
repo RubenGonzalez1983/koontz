@@ -11,7 +11,7 @@ export const About = () => (
 			<div className="webtags">
 				<img className="picabout" src="https://i.ibb.co/1K3GF8f/IMG-1027.jpg" />
 				<div>
-					<br /> <br />
+					<br />
 					<h1>About Koontz Kustom Guitars </h1>
 					<p>
 						I founded Koontz Guitars in 2016 somewhere between the Atlantic Ocean and the Florida Everglades
