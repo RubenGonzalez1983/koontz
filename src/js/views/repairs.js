@@ -24,39 +24,74 @@ export const Repairs = () => (
 				<br />
 				<h3>Pricing for Standard Guitars</h3>
 				<p>
-					{" "}
 					Hardtails, Les Pauls, Teles, Strat style guitars, acoustic and classical Guitars, Bigsby Guitars, 7
 					strings, 4 or 5 string basses, acoustic basses.
-				</p>{" "}
+				</p>
 				<br />
-				<ul>Regular Set-up ---- $70</ul>
-				<ul>With Fret Level ---- $150</ul>
+				<ul className="article">
+					<span className="item">Regular Set-up</span> <span className="dots" />
+					<span className="price">$70</span>
+				</ul>
+				<ul className="article">
+					<span className="item">With Fret Level</span>
+					<span className="dots" />
+					<span className="price">$150</span>
+				</ul>
 				<br />
 				<h3>Pricing for Other Guitars</h3>
 				<p>
-					{" "}
 					Locking tremolo guitars (Floyd Rose), 12 string guitars, 6 string basses, banjos, Jaguars and
 					Jazzmasters.
 					<br />
 				</p>
-				<ul>Full set-up ---- $80</ul>
-				<ul>Set-up with fret level ---- $160</ul>
+				<ul className="article">
+					<span className="item">Full set-up</span>
+					<span className="dots" />
+					<span className="price">$80</span>
+				</ul>
+				<ul className="article">
+					<span className="item">Set-up with fret level</span>
+					<span className="dots" /> <span className="price">$160</span>
+				</ul>
 				<br /> <br />
 				<h1 className="underline">Crack and Structural Repairs</h1> <br />
 				<ul>
-					<li>Seal crack up to 3” ---- $50-$100</li>
+					<li className="article">
+						<span className="item">Seal crack up to 3”</span>
+						<span className="dots" /> <span className="price">$50-$100</span>
+					</li>
 					No Finish. <br /> <br />
-					<li>Seal crack up to 6” ---- $100-$150</li>
+					<li className="article">
+						<span className="item">Seal crack up to 6” </span>
+						<span className="dots" /> $100-$150
+					</li>
 					No Finish. <br /> <br />
-					<li>Repair Crack up to 3” ---- $150-200</li>
+					<li className="article">
+						<span className="item">Repair Crack up to 3”</span>
+						<span className="dots" />
+						<span className="price"> $150-200</span>
+					</li>
 					With finish touch up plus materials($10) Over 6” must quote. <br />
 					<br />
-					<li>Seal Cracked bridge ---- $25-75</li> <br />
-					<li>Headstock reglue ---- $200-250</li>
+					<li className="article">
+						<span className="item">Seal Cracked bridge </span>
+						<span className="dots" /> <span className="price"> $25-75</span>
+					</li>{" "}
+					<br />
+					<li className="article">
+						<span className="item">Headstock reglue</span>
+						<span className="dots" /> <span className="price">$200-250</span>
+					</li>
 					No touch up, no splines. <br /> <br />
-					<li>Headstock Reglue ---- $300-350</li>
+					<li className="article">
+						<span className="item">Headstock Reglue</span>
+						<span className="dots" /> <span className="price">$300-350</span>
+					</li>
 					w/spline reinforcements, no touchup w/touch up add $50-75. <br /> <br />
-					<li>Reglue loose brace ---- $50</li>
+					<li className="article">
+						<span className="item">Reglue loose brace</span>
+						<span className="dots" /> <span className="price">$50</span>
+					</li>
 					$30 each additional brace. <br />
 					<br />
 				</ul>{" "}
@@ -66,30 +101,265 @@ export const Repairs = () => (
 					<i>Different types of neck repairs from nuts to frets. For headstock crack see crack repair</i>
 				</p>
 				<ul>
-					<li>Fender style bone nut ---- $90</li>
+					<li className="article">
+						<span className="item">Fender style bone nut</span>
+						<span className="dots" /> <span className="price">$90</span>
+					</li>
 					Made from scratch. <br /> <br />
-					<li>Gibson style bone nut ---- $95</li>
+					<li className="article">
+						<span className="item">Gibson style bone nut</span>
+						<span className="dots" /> <span className="price">$95</span>
+					</li>
 					Made from scratch. <br /> <br />
-					<li>12 String bone nut ---- $150</li>
+					<li className="article">
+						<span className="item">12 String bone nut</span>
+						<span className="dots" /> <span className="price">$150</span>
+					</li>
 					Made from scratch. <br /> <br />
-					<li>Install synthetic nut ---- $50</li>
+					<li className="article">
+						<span className="item">Install synthetic nut</span>
+						<span className="dots" /> <span className="price">$50</span>
+					</li>
 					Plus cost of nut. <br /> <br />
-					<li>Brass nut ---- $150</li>{" "}
+					<li className="article">
+						<span className="item">Brass nut</span>
+						<span className="dots" /> <span className="price">$150</span>
+					</li>{" "}
 				</ul>
 				<br /> <br />
 				<h1 className="underline">Frets and Fingerboards</h1> <br />
 				<ul>
-					<li>Full Fret level and recrown ---- $100</li> <br />
-					<li>Fret end file ---- $50</li> <br />
-					<li>Fret level, recrown, fret ends ---- $125</li> <br />
-					<li>Recrown only ---- $40</li> <br />
-					<li>Reseat fret ---- $15 a fret</li> <br />
-					<li>Full refret ---- $350</li>
+					<li className="article">
+						<span className="item">Full Fret level and recrown</span>
+						<span className="dots" /> <span className="price">$100</span>
+					</li>{" "}
+					<br />
+					<li className="article">
+						<span className="item">Fret end file</span>
+						<span className="dots" /> <span className="price">$50</span>
+					</li>{" "}
+					<br />
+					<li className="article">
+						<span className="item">Fret level, recrown, fret ends</span>
+						<span className="dots" /> <span className="price">$125</span>
+					</li>{" "}
+					<br />
+					<li className="article">
+						<span className="item">Recrown only</span>
+						<span className="dots" /> <span className="price">$40</span>
+					</li>{" "}
+					<br />
+					<li className="article">
+						<span className="item">Reseat fret</span>
+						<span className="dots" /> <span className="price">$15 a fret</span>
+					</li>{" "}
+					<br />
+					<li className="article">
+						<span className="item">Full refret</span>
+						<span className="dots" /> <span className="price">$350</span>
+					</li>
 					Unbound maple or rosewood neck. <br /> <br />
-					<li>Refret bound neck ---- 450</li>{" "}
+					<li className="article">
+						<span className="item">Refret bound neck</span>
+						<span className="dots" /> <span className="price">450</span>
+					</li>{" "}
 				</ul>
 				<br />
 				<br />
+				<h1 className="underline">Restring and Tune</h1> <br />
+				<ul>
+					<li className="article">
+						<span className="item">6 string, 7 string, banjo, ukelele</span>
+						<span className="dots" /> <span className="price">$30</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">12 string</span>
+						<span className="dots" /> <span className="price">$40</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Classical, mandolin</span>
+						<span className="dots" /> <span className="price">35</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Floyd Rose</span>
+						<span className="dots" /> <span className="price">$35</span>
+					</li>
+					<br />
+				</ul>{" "}
+				<br /> <br />
+				<h1 className="underline">Adjustments and Extras</h1> <br />
+				<ul>
+					<li className="article">
+						<span className="item">Adjust action or intonation</span>
+						<span className="dots" /> <span className="price">$25</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Adjust truss rod</span>
+						<span className="dots" /> <span className="price">$15</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Filling nut slot</span>
+						<span className="dots" /> <span className="price">$15($3 each Additional)</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Lower nut slot</span>
+						<span className="dots" /> <span className="price">$15-$25</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Keyholing bridge holes</span>
+						<span className="dots" /> <span className="price">$5-$15</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Clean electronics</span>
+						<span className="dots" /> <span className="price">$25</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Dowel and drill strap button</span>
+						<span className="dots" /> <span className="price">$10-20</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Shimming neck</span>
+						<span className="dots" /> <span className="price">$20(plus materials)</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Very dirty guitar or rusty frozen hardware</span>
+						<span className="dots" /> <span className="price">$25-50</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Saddle installation Strat</span>
+						<span className="dots" /> <span className="price">$50</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Saddle installation Gibson</span>
+						<span className="dots" /> <span className="price">$75</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Tuner install drop in</span>
+						<span className="dots" /> <span className="price">$15(+cost of restring and setup)</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Tuner install with reaming and drilling</span>
+						<span className="dots" /> <span className="price">$40</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">12 string tuner install</span>
+						<span className="dots" /> <span className="price">$75</span>
+					</li>
+				</ul>
+				<br />
+				<br />
+				<h1 className="underline">Electronics</h1>
+				<br />
+				<ul>
+					<li className="article">
+						<span className="item">Min bench fee</span>
+						<span className="dots" /> <span className="price">$25</span>
+					</li>{" "}
+					<br />
+					<li className="article">
+						<span className="item">Clean electronics</span>
+						<span className="dots" /> <span className="price">$25</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Pick up install:</span>
+					</li>{" "}
+					<ul>
+						<li className="article">
+							<span className="item">one pick up</span>
+							<span className="dots" /> <span className="price">$50</span>
+						</li>{" "}
+						<br />
+						<li className="article">
+							<span className="item">two pick ups</span>
+							<span className="dots" /> <span className="price">$69 </span>
+						</li>
+						<br />
+						<li className="article">
+							<span className="item">three pick ups</span>
+							<span className="dots" /> <span className="price">$79</span>
+						</li>
+					</ul>
+					<br />
+					<br />
+					<li className="article">
+						<span className="item"> Pick up install Tele: </span>
+					</li>
+					<ul>
+						<li className="article">
+							<span className="item">bridge</span>
+							<span className="dots" /> <span className="price">$65</span>
+						</li>
+						<br />
+						<li className="article">
+							<span className="item">neck</span>
+							<span className="dots" /> <span className="price">$50</span>
+						</li>
+						<br />
+						<li className="article">
+							<span className="item">set</span>
+							<span className="dots" /> <span className="price">$75</span>
+						</li>
+					</ul>
+					<br /> <br />
+					<li className="article">
+						<span className="item">Rout body flat</span>
+						<span className="dots" /> <span className="price">$90($50 Addt’l)</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Route body archtop</span>
+						<span className="dots" /> <span className="price">$55-$100</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Replace switch</span>
+						<span className="dots" /> <span className="price">$50</span>
+					</li>
+					<br />
+					<li className="article">
+						<span className="item">Replace pot: </span>
+					</li>{" "}
+					<ul>
+						<li className="article">
+							<span className="item">for 1</span>
+							<span className="dots" /> <span className="price">$45</span>
+						</li>
+						<br />
+						<li className="article">
+							<span className="item">for 2</span>
+							<span className="dots" /> <span className="price">$65</span>
+						</li>
+						<br />
+						<li className="article">
+							<span className="item">for 3</span>
+							<span className="dots" /> <span className="price">$80</span>
+						</li>
+						<br />
+						<li className="article">
+							<span className="item"> for 4</span>
+							<span className="dots" /> <span className="price">$90</span>
+						</li>
+					</ul>
+					<br />
+					<br />
+				</ul>
 				<h4>
 					If you don&apos;t see what you need, <a href="/contact">contact me.</a>{" "}
 				</h4>
