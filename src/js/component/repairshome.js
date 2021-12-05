@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const RepairsHome = () => (
 	<div>
 		<div className="bodyweb">
-			<br /> <br /> <br /> <br />
+			<br /> <br />
 			<div className="webtags">
 				<img className="picweb" src="https://i.ibb.co/6sVVtSW/3L9A1145.jpg" />
 				<h1 className="underline">Set-Up and Fret Level</h1>
@@ -365,6 +365,12 @@ export const RepairsHome = () => (
 					<br />
 					<br />
 				</ul>
+				<h4>
+					If you don&apos;t see what you need,{" "}
+					<Link to="/contact" target="_blank" rel="noopener noreferrer">
+						contact me.
+					</Link>{" "}
+				</h4>
 			</div>
 			<br /> <br /> <br /> <br />
 		</div>

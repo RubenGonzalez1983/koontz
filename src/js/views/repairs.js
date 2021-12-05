@@ -367,6 +367,12 @@ export const Repairs = () => (
 				</ul>
 			</div>
 			<br /> <br /> <br /> <br />
+			<h4>
+				If you don&apos;t see what you need,{" "}
+				<Link to="/contact" target="_blank" rel="noopener noreferrer">
+					contact me.
+				</Link>{" "}
+			</h4>
 		</div>
 	</div>
 );

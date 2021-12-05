@@ -12,10 +12,17 @@ export const Home = () => (
 			<img className="homeimg" src="https://i.ibb.co/9y0cvK3/header-logo.png" />
 		</div>
 		<br />
-		<h1>Repair Services</h1>
+		<h2 className="headerhome">Guitar repair services and custom-made instruments in Miami, FL.</h2>
+		<br />
+		<div className="buttonshm">
+			<div className="btn-group">
+				<button className="button">Repairs</button>
+				<button className="button">Guitars</button>
+			</div>
+		</div>
 		<RepairsHome />
+		<h1 className="headerhome">Featured Guitars</h1>
 		<Guitars />
-		<h4>If you don&apos;t see what you need: </h4>
 		<ContactUs />
 		<br />
 		<br />
