@@ -7,7 +7,7 @@ export const Repairs = () => (
 		<div className="bodyweb">
 			<br /> <br /> <br /> <br />
 			<div className="webtags">
-				<img className="picweb" src="https://i.ibb.co/6sVVtSW/3L9A1145.jpg" />
+				<img className="picweb" src="https://i.ibb.co/tHTpVnG/3-L9-A1163-2.jpg" />
 				<h1 className="underline">Set-Up and Fret Level</h1>
 				<br />
 				<p>
