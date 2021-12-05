@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/home.css";
 import { Link } from "react-router-dom";
 
-export const Repairs = () => (
+export const RepairsHome = () => (
 	<div>
 		<div className="bodyweb">
 			<br /> <br /> <br /> <br />

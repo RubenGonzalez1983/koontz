@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/home.css";
 import { Link } from "react-router-dom";
 
-export const Kustom = () => (
+export const Guitars = () => (
 	<div>
 		<div>
 			<br /> <br /> <br />

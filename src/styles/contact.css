@@ -90,14 +90,16 @@ header {
 
 #form {
   position: relative;
-  width: 500px;
-  margin: 50px auto 100px auto;
+  width: 100%;
+  max-width: 470px;
+  margin: auto;
 }
 
 input {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 20px;
-  width: 470px;
+  width: 100%;
+  max-width: 465px;
   height: 50px;
   padding: 0px 15px 0px 15px;
   
@@ -115,13 +117,13 @@ input {
 }
 
 input:hover {
-  background: rgb(197, 166, 27);
+  background: black;
   color: whitesmoke;
 }
 
 textarea {
-  width: 470px;
-  max-width: 470px;
+  width: 100%;
+  max-width: 465px;
   height: 110px;
   max-height: 110px;
   padding: 15px;
@@ -142,12 +144,13 @@ textarea {
 }
 
 textarea:hover {
-  background: rgb(197, 166, 27);
+  background: black;
   color: whitesmoke;
 }
 
 #submit {
-  width: 470px;
+  width: 100%;
+  max-width: 465px;
   
   padding: 0;
   margin: -7px 0px 0px 0px;
@@ -172,6 +175,7 @@ textarea:hover {
     flex-direction: column;
     justify-content: center;
     font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 5vw;
 
 }
 .topcontact{
@@ -182,3 +186,4 @@ textarea:hover {
   border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
 }
+

@@ -13,6 +13,8 @@ import { Repairs } from "./views/repairs";
 import { About } from "./views/about";
 import { Contact } from "./views/contactus";
 import { Kustom } from "./views/kustom";
+import { RepairsHome } from "./component/repairshome";
+import { Guitars } from "./component/guitars";
 
 //create your first component
 const Layout = () => {

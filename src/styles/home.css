@@ -1,6 +1,5 @@
 .body {
-    overflow: auto;
-    position: relative;
+    
     background-color:	white;
     
   }
@@ -76,8 +75,6 @@
   }
   .logodiv {
     display: block;
-    width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -86,7 +83,9 @@
   }
 
   .homeimg{
+    margin-top: 80px;
     width: 100%;
+    max-width: 350px;
     height: auto;
   }
 
@@ -133,19 +132,6 @@
 
   }
 
-  @media screen and (min-width: 601px) {
-    bodyweb {
-      font-size: 16px;
-      
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    bodyweb {
-      font-size: 10px;
-      
-    }
-  }
 
   .webtags{
     margin-left:25px;
@@ -225,7 +211,7 @@
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 
 }
 
@@ -233,19 +219,15 @@
 .guitars{
 
       color: black;
-      width:430px; 
+      width:100%;
+      max-width:420px; 
       height: 670px; 
       margin:auto; 
        
       
     }
 
-.top {
-display: flex; 
-padding: 10px;
-font-family: 'Quattrocento Sans', sans-serif;
-color:black;
-} 
+
 
 .kustomgtr  {
   opacity: 1;
@@ -260,7 +242,7 @@ transition: .5s ease;
 .middle {
   margin: 0 auto;
   opacity: 0;
-  transform: translate(-0%, -573px);
+  transform: translate(-0%, -560px);
   text-align: center;
 }
 
@@ -269,7 +251,8 @@ transition: .5s ease;
 .guitars:hover .middle {
   opacity: .8;
   background-color: black;
-  height: 573px;
+  height: 100%;
+  max-height: 560px;
 }
 
 .text {
