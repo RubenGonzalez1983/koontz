@@ -321,7 +321,7 @@ transition: .5s ease;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  float: left;
+  
 }
 
 .btn-group .button:not(:last-child) {
