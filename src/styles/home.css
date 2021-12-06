@@ -7,28 +7,7 @@
     
   }
   
-/* .body::before {
-  background-color: black;
-    content: "";
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: -1;
-  
-    display: block;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("https://i.ibb.co/JCq6xsB/3L9A1198.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-  
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-  
-  } */
+
 
   .nav {
     
@@ -45,7 +24,7 @@
   .navbarkoontz{
     position: relative;
     align-items: center;
-    position:fixed;
+    position:static;
 
   }
 
@@ -216,7 +195,7 @@
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  /* margin-top: 10px; */
+
 
 }
 
@@ -321,7 +300,20 @@ transition: .5s ease;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  
+
+}
+
+.button-link-home{
+  color: inherit;
+  text-decoration: inherit;
+  color: white
+}
+
+
+.button-link{
+  color: inherit;
+  text-decoration: inherit;
+  color: black
 }
 
 .btn-group .button:not(:last-child) {
@@ -336,4 +328,26 @@ transition: .5s ease;
   display: flex;
   justify-content: center;
   flex-direction: row;
+  
+}
+
+.guitarlist{
+  height: 5em;
+  display: flex;
+  justify-content: center; 
+  font-family: 'Quattrocento Sans', sans-serif;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 601px) {
+ .guitarlist{
+    font-size: 20px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  guitarlist {
+    font-size: .5px;
+  }
 }
