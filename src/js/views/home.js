@@ -16,17 +16,12 @@ export const Home = () => (
 		<br />
 		<div className="buttonshm">
 			<div className="btn-group">
-				<button className="button">
-					{" "}
-					<Link className="button-link-home" to="/repairs">
-						Repairs
-					</Link>
-				</button>
-				<button className="button">
-					<Link className="button-link-home" to="/kustom">
-						Buy Guitars
-					</Link>
-				</button>
+				<Link className="button-link-home" to="/repairs">
+					<button className="button"> Repairs</button>
+				</Link>
+				<Link className="button-link-home" to="/kustom">
+					<button className="button">Buy Guitars</button>
+				</Link>
 			</div>
 		</div>
 		<RepairsHome />
