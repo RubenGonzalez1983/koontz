@@ -6,55 +6,7 @@ export const Kustom = () => (
 	<div>
 		<br /> <br />
 		<br /> <br />
-		<div className="guitarlist">
-			<a
-				className="button-link"
-				href="https://koontzkustomguitars.bigcartel.com/product/the-tropic-thunder"
-				target="_blank"
-				rel="noopener noreferrer">
-				Tropic Thunder
-			</a>{" "}
-			/{" "}
-			<a
-				className="button-link"
-				href="https://koontzkustomguitars.bigcartel.com/product/the-dag"
-				target="_blank"
-				rel="noopener noreferrer">
-				The Dag
-			</a>{" "}
-			/{" "}
-			<a
-				className="button-link"
-				href="https://koontzkustomguitars.bigcartel.com/product/the-strummer"
-				target="_blank"
-				rel="noopener noreferrer">
-				The Strummer
-			</a>{" "}
-			/{" "}
-			<a
-				className="button-link"
-				href="https://koontzkustomguitars.bigcartel.com/product/the-maverick"
-				target="_blank"
-				rel="noopener noreferrer">
-				The Maverick-Guitar
-			</a>{" "}
-			/{" "}
-			<a
-				className="button-link"
-				href="https://koontzkustomguitars.bigcartel.com/product/the-mav"
-				target="_blank"
-				rel="noopener noreferrer">
-				The Maverick-Bass
-			</a>{" "}
-			/{" "}
-			<a
-				className="button-link"
-				href="https://www.instagram.com/koontzguitars/?hl=en"
-				target="_blank"
-				rel="noopener noreferrer">
-				The AAA
-			</a>
-		</div>
+		<h1 className="headerhome">Guitars for sale</h1> <br />
 		<div className="kustom">
 			<div className="guitars">
 				<img className="kustomgtr" src="https://i.ibb.co/bF83PHd/tropic-thunder.jpg" />

@@ -187,7 +187,10 @@
   width: 100%;
   position: absolute;
 }
-
+.borderbottom{
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
 .kustom{
   display: flex;
   justify-content: space-between;
@@ -288,6 +291,8 @@ transition: .5s ease;
   display: flex;
   justify-content: center;
   font-family: 'Quattrocento Sans', sans-serif;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .btn-group .button {

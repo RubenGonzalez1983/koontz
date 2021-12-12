@@ -30,8 +30,15 @@ export const Home = () => (
 			</div>
 		</div>
 		<RepairsHome />
-		<h1 className="headerhome">Featured Guitars</h1>
+		<h1 className="headerhome">Featured Guitars for Sale</h1>
+		<div className="borderbottom" />
 		<Guitars />
+		<h1 className="headerhome">
+			<Link className="button-link" to="/kustom">
+				Featured Instruments I&apos;ve Built by Request
+			</Link>
+		</h1>
+		<div className="borderbottom" />
 		<ContactUs />
 		<br />
 		<br />
