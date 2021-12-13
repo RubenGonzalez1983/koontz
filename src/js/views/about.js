@@ -27,7 +27,7 @@ export const About = () => (
 						Sorry if some of my sweat soaks into the wood of your brand new hand-built guitar. <br /> <br />
 						Take a look at my the <a href="/repairs">repair services</a> I offer and some of the
 						<a href="/kustom"> guitars</a> I&apos;ve built. <br /> <br />
-						Check out Jon Nuñez rocking one of my guitars, The Maverick, with his band, Torche. Hint:
+						Also, check out Jon Nuñez rocking one of my guitars, The Maverick, with his band, Torche. Hint:
 						he&apos;s the guitar player that doesn&apos;t sing and plays the leads.
 					</p>
 					<YoutubeEmbed embedId="ntl-cBtAjm4" />

@@ -20,7 +20,10 @@ export const Home = () => (
 					<button className="button"> Repairs</button>
 				</Link>
 				<Link className="button-link-home" to="/kustom">
-					<button className="button">Buy Guitars</button>
+					<button className="button">Custom Guitars</button>
+				</Link>
+				<Link className="button-link-home" to="/contact">
+					<button className="button">Contact</button>
 				</Link>
 			</div>
 		</div>
