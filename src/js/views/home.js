@@ -4,6 +4,8 @@ import { ContactUs } from "../component/contact";
 import { RepairsHome } from "../component/repairshome";
 import { Guitars } from "../component/guitars";
 import { Link } from "react-router-dom";
+import { Featured } from "../component/featured";
+import YoutubeEmbed from "../component/YoutubeEmbed";
 
 export const Home = () => (
 	<div className="body">
@@ -28,18 +30,20 @@ export const Home = () => (
 			</div>
 		</div>
 		<RepairsHome />
-		<h1 className="headerhome">Featured Guitars for Sale</h1>
+		<h1 className="headerhome">Featured guitars for sale</h1>
 		<div className="borderbottom" />
 		<Guitars />
-		<h1 className="headerhome">
-			<Link className="button-link" to="/kustom">
-				Featured Instruments I&apos;ve Built by Request
-			</Link>
-		</h1>
+		<h1 className="headerhome">Featured guitars I&apos;ve built by request</h1>
 		<div className="borderbottom" />
+		<Featured />
+		<h1 className="headerhome">
+			Or if you want to get weird check out the Guiterror. An all analog wooden sound machine. See below.
+		</h1>{" "}
+		<br /> <br />
+		<YoutubeEmbed embedId="KFKSyuuF-pc" />
+		<div className="borderbottom" /> <br />
+		<br />
 		<ContactUs />
-		<br />
-		<br />
 		<br />
 		<br />
 		<br />

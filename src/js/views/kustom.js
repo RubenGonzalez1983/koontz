@@ -34,7 +34,6 @@ export const Kustom = () => (
 					</div>
 				</div>
 			</div>
-
 			<div className="guitars">
 				<img className="kustomgtr" src="https://i.ibb.co/fDDQs43/the-dag.jpg" />
 
@@ -61,7 +60,6 @@ export const Kustom = () => (
 					</div>
 				</div>
 			</div>
-
 			<div className="guitars">
 				<img className="kustomgtr" src="https://i.ibb.co/wYgWqrQ/the-strummer.jpg" />
 
@@ -89,7 +87,6 @@ export const Kustom = () => (
 					</div>
 				</div>
 			</div>
-
 			<div className="guitars">
 				<img className="kustomgtr" src="https://i.ibb.co/f1wKW2q/the-maverick.jpg" />
 
@@ -116,7 +113,6 @@ export const Kustom = () => (
 					</div>
 				</div>
 			</div>
-
 			<div className="guitars">
 				<img className="kustomgtr" src="https://i.ibb.co/Zc2d2zJ/the-maverick-bass.jpg" />
 
@@ -143,7 +139,6 @@ export const Kustom = () => (
 					</div>
 				</div>
 			</div>
-
 			<div className="guitars">
 				<img className="kustomgtr" src="https://i.ibb.co/dDMBFz6/aaa-kust.jpg" />
 
@@ -162,6 +157,27 @@ export const Kustom = () => (
 						</Link>
 					</div>
 				</div>
+			</div>
+		</div>
+		<h1 className="headerhome">Guitars I&apos;ve built by request</h1> <br />
+		<div className="kustom">
+			<div className="guitars">
+				<img className="kustomgtr" src="https://i.ibb.co/qkcWn5q/image-67217409.jpg" />
+			</div>
+			<div className="guitars">
+				<img className="kustomgtr" src="https://i.ibb.co/f84F0QF/IMG-0379.jpg" />
+			</div>
+			<div className="guitars">
+				<img className="kustomgtr" src="https://i.ibb.co/0tSdw0X/IMG-7780.jpg" />
+			</div>
+			<div className="guitars">
+				<img className="kustomgtr" src="https://i.ibb.co/2ynbjFB/IMG-3104.jpg" />
+			</div>
+			<div className="guitars">
+				<img className="kustomgtr" src="https://i.ibb.co/Wp0DPxw/IMG-6863.jpg" />
+			</div>
+			<div className="guitars">
+				<img className="kustomgtr" src="https://i.ibb.co/58M9mpz/IMG-4653.jpg" />
 			</div>
 		</div>
 	</div>
