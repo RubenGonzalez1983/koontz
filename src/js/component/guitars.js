@@ -22,7 +22,7 @@ export const Guitars = () => (
 							<br />
 							Natural Walnut
 							<br />
-							$3,200
+							$2,500+
 							<br />
 							<a
 								href="https://koontzkustomguitars.bigcartel.com/product/the-maverick"
@@ -49,7 +49,7 @@ export const Guitars = () => (
 							<br />
 							Surf Green
 							<br />
-							$1,900
+							$2,000+
 							<br />
 							<a
 								href="https://koontzkustomguitars.bigcartel.com/product/the-mav"
@@ -74,9 +74,15 @@ export const Guitars = () => (
 							<br />
 							Wild Bill Lawrence L500 humbuckers
 							<br />
-							<Link to="/contact" target="_blank" rel="noopener noreferrer">
-								Contact me for more info
-							</Link>
+							$1,600+
+							<br />
+							<a
+								href="https://koontzkustomguitars.bigcartel.com/product/the-aaa"
+								target="_blank"
+								rel="noopener noreferrer">
+								{" "}
+								Buy{" "}
+							</a>
 						</div>
 					</div>
 				</div>

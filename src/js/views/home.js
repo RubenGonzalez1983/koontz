@@ -36,9 +36,9 @@ export const Home = () => (
 		<h1 className="headerhome">Featured guitars I&apos;ve built by request</h1>
 		<div className="borderbottom" />
 		<Featured />
-		<h1 className="headerhome">
-			Or if you want to get weird check out the Guiterror. An all analog wooden sound machine. See below.
-		</h1>{" "}
+		<h3 className="headerhome">
+			Or if you want to get weird, check out the Guiterror. An all analog wooden sound machine. See below.
+		</h3>{" "}
 		<br /> <br />
 		<YoutubeEmbed embedId="KFKSyuuF-pc" />
 		<div className="borderbottom" /> <br />

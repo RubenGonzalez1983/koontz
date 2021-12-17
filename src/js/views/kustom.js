@@ -23,7 +23,7 @@ export const Kustom = () => (
 						<br />
 						Inca Silver and Mirror Pickguard
 						<br />
-						$1,400
+						$1,600+
 						<br />
 						<a
 							href="https://koontzkustomguitars.bigcartel.com/product/the-tropic-thunder"
@@ -49,7 +49,7 @@ export const Kustom = () => (
 						<br />
 						Natural Walnut Stain
 						<br />
-						$1,500
+						$1,600+
 						<br />
 						<a
 							href="https://koontzkustomguitars.bigcartel.com/product/the-dag"
@@ -76,7 +76,7 @@ export const Kustom = () => (
 						<br />
 						Black and Natural Mahogany
 						<br />
-						$2,100
+						$2,100+
 						<br />
 						<a
 							href="https://koontzkustomguitars.bigcartel.com/product/the-strummer"
@@ -102,7 +102,7 @@ export const Kustom = () => (
 						<br />
 						Natural Walnut
 						<br />
-						$3,200
+						$2,500+
 						<br />
 						<a
 							href="https://koontzkustomguitars.bigcartel.com/product/the-maverick"
@@ -128,7 +128,7 @@ export const Kustom = () => (
 						<br />
 						Surf Green
 						<br />
-						$1,900
+						$2,000+
 						<br />
 						<a
 							href="https://koontzkustomguitars.bigcartel.com/product/the-mav"
@@ -152,9 +152,15 @@ export const Kustom = () => (
 						<br />
 						Wild Bill Lawrence L500 humbuckers
 						<br />
-						<Link to="/contact" target="_blank" rel="noopener noreferrer">
-							Contact me for more info
-						</Link>
+						$1,600+
+						<br />
+						<a
+							href="https://koontzkustomguitars.bigcartel.com/product/the-aaa"
+							target="_blank"
+							rel="noopener noreferrer">
+							{" "}
+							Buy{" "}
+						</a>
 					</div>
 				</div>
 			</div>
@@ -177,7 +183,7 @@ export const Kustom = () => (
 				<img className="kustomgtr" src="https://i.ibb.co/Wp0DPxw/IMG-6863.jpg" />
 			</div>
 			<div className="guitars">
-				<img className="kustomgtr" src="https://i.ibb.co/58M9mpz/IMG-4653.jpg" />
+				<img className="kustomgtr" src="https://i.ibb.co/rchK1GK/IMG-4673.jpg" />
 			</div>
 		</div>
 	</div>
