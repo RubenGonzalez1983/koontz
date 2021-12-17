@@ -362,17 +362,15 @@ export const Repairs = () => (
 							<span className="dots" /> <span className="price">$90</span>
 						</li>
 					</ul>
-					<br />
-					<br />
 				</ul>
 			</div>
-			<br /> <br /> <br /> <br />
-			<h4>
+			<br /> <br />
+			<h2>
 				If you don&apos;t see what you need,{" "}
 				<Link to="/contact" target="_blank" rel="noopener noreferrer">
 					contact me.
 				</Link>{" "}
-			</h4>
+			</h2>
 		</div>
 	</div>
 );

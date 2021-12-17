@@ -365,12 +365,12 @@ export const RepairsHome = () => (
 					<br />
 					<br />
 				</ul>
-				<h4>
+				<h2>
 					If you don&apos;t see what you need,{" "}
 					<Link to="/contact" target="_blank" rel="noopener noreferrer">
 						contact me.
 					</Link>{" "}
-				</h4>
+				</h2>
 			</div>
 			<br /> <br /> <br /> <br />
 		</div>
